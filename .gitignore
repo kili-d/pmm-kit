@@ -1,0 +1,22 @@
+# PMM Kit ships as a framework only: this file, CLAUDE.md, README.md, and .claude/skills/.
+# Everything else — personalized context, raw inputs, and per-product hubs — is private
+# by default. This uses an allow-list: ignore everything, then explicitly un-ignore the
+# framework paths. New product hub folders (named after the product) are ignored
+# automatically without needing to be added here.
+
+/*
+!/.claude/
+!/.claude/**
+!/CLAUDE.md
+!/README.md
+!/.gitignore
+!/context/
+!/context/README.md
+
+# Local session/permission config — machine-specific, never shared
+/.claude/settings.local.json
+**/.claude/settings.local.json
+
+# OS cruft
+.DS_Store
+**/.DS_Store
