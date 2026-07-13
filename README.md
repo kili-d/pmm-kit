@@ -1,6 +1,6 @@
 # PMM Kit
 
-A technical product marketing skill set for [Claude Code](https://claude.com/claude-code).
+A technical product marketing skill set for tools like Claude Code and Codex.
 It takes you from raw product evidence to defensible positioning and launch-ready assets
 — with every material claim carrying a confidence label and a checkable source, never a
 guess dressed up as fact.
