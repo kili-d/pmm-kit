@@ -36,14 +36,18 @@ sober output, not a refusal to help. Point back to whichever skill would close t
 1. Draft `12-campaign-brief.md`: objective, audience, core message, supporting messages,
    offer/CTA, distribution plan — each pulled from the hub, not invented fresh. Cite
    which hub file backs each section.
-2. From the brief, draft whichever starter assets were actually requested (landing page
+2. Check `13-copy-library.md` for existing headlines, taglines, and CTAs tagged to the
+   relevant pillar/audience before writing new ones — reuse or adapt what's there rather
+   than regenerating from scratch. For any asset needing copy that isn't already in the
+   library, either draft it inline or delegate the sentence-level work to `copywriting`.
+3. From the brief, draft whichever starter assets were actually requested (landing page
    outline, email copy, sales one-pager, FAQ, social copy) as separate files or sections —
    practical drafts a real team can adapt, not generic launch-copy filler.
-3. **Preserve uncertainty labels in the output itself.** If a supporting message is
+4. **Preserve uncertainty labels in the output itself.** If a supporting message is
    marked `Needs-customer-proof` upstream, don't launder it into confident copy here —
    either leave it out of customer-facing drafts or mark it inline as needing sign-off
    before use.
-4. List open risks/approvals needed at the end of `12-campaign-brief.md` — anything a
+5. List open risks/approvals needed at the end of `12-campaign-brief.md` — anything a
    stakeholder still needs to clear per `11-stakeholders.md`.
 
 ## Rules

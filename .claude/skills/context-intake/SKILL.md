@@ -92,7 +92,7 @@ known" rather than a guess.
 
 Create the hub folder (named whatever the user chose, not necessarily the product's
 literal name) at the repo root by copying every file and folder from
-`assets/hub-template/` in this skill (the 00-index.md through 12-campaign-brief.md set,
+`assets/hub-template/` in this skill (the 00-index.md through 13-copy-library.md set,
 plus `inputs/` and `assets/{competitor-screenshots,product-screenshots,whiteboards}/`).
 In `00-index.md`, fill in the owner, status, product summary, and open questions from
 what you just learned. Leave the freshness table exactly as the template has it — every

@@ -43,9 +43,9 @@ alone — packaging without the surrounding journey context is easy to misread.
   and pricing pages mean, not re-recording what's on them.
 - Every pricing fact needs a capture date; competitor pricing is a moving target and an
   undated price is close to useless six months from now.
-- This analysis feeds `positioning-messaging` later — it doesn't draft our own
-  positioning or messaging house itself. Write findings as competitor facts and
-  implications, not as "so here's what we should say."
+- This analysis feeds `positioning-messaging` and `messaging-house` later — it doesn't
+  draft our own positioning or messaging house itself. Write findings as competitor
+  facts and implications, not as "so here's what we should say."
 
 ## Output
 

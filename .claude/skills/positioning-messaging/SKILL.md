@@ -1,14 +1,16 @@
 ---
 name: positioning-messaging
-description: Draft positioning (Dunford spine) and the messaging house — narrative, message hierarchy, audience angles — only once product, customer, and competitor evidence actually supports it. Fires on prompts like "build a messaging house," "draft positioning from this context hub," "create audience-specific messaging," "what's our positioning," or as the natural next step once value-framing and enough competitor passes exist. Requires an existing product hub — this is a late-stage skill and will refuse to produce polished messaging if the hub isn't ready yet, telling you what's missing instead.
+description: Draft positioning (Dunford spine) — competitive alternatives, unique attributes, the value they enable, who cares most, and the market category as an explicit decision — only once product, customer, and competitor evidence actually supports it. Fires on prompts like "draft positioning from this context hub," "what's our positioning," "help me pick a market category," or as the natural next step once value-framing and enough competitor passes exist. Requires an existing product hub — this is a late-stage skill and will refuse to produce a positioning statement if the hub isn't ready yet, telling you what's missing instead. Once positioning is drafted, run `messaging-house` next to build the narrative and message hierarchy from it — this skill does not draft the messaging house itself.
 ---
 
-# Positioning & Messaging
+# Positioning
 
-Draft the product's positioning and messaging house — but only from real evidence. This
-is the skill CLAUDE.md means when it says "don't jump to campaign work": if the hub can't
-back a claim, this skill's job is to say so and produce a gap list, not to paper over it
-with confident-sounding copy.
+Draft the product's positioning — but only from real evidence. This is the skill
+CLAUDE.md means when it says "don't jump to campaign work": if the hub can't back a
+claim, this skill's job is to say so and produce a gap list, not to paper over it with
+confident-sounding copy. It owns `07-positioning.md` only; the messaging house
+(narrative, hierarchy, audience angles) is `messaging-house`'s job, run right after this
+one.
 
 ## Gate check (do this first, every time)
 
@@ -39,34 +41,32 @@ If the hub genuinely does support it, proceed.
    alternatives, unique attributes, the value they enable, who cares most, and the market
    category as an explicit decision (name the assumed category and say why you're
    choosing differently, if you are). Each step should cite the hub file it draws from.
-2. **Draft `08-messaging-house.md`** from the positioning: narrative, core value
-   proposition, message hierarchy (pillars), audience-specific angles. Every message
-   traces to a Strongest claim in `09-value-prop-matrix.md` — don't introduce a new claim
-   here that wasn't already substantiated upstream.
-3. **Run the claims-substantiation check**: for every differentiated claim in the
-   messaging house, confirm it points to a row in `02-evidence-log.md`. No source = cut
-   the claim or label it `Needs-customer-proof`. Comparative claims ("faster than X,"
-   "the only tool that...") and anything in a regulated market get flagged for human
-   legal/PM review explicitly — don't self-clear them.
-4. Prefer the simplest credible story the evidence actually supports over a cleverer one
+2. **Check the positioning statement's own claims**: the "unique attributes" and "value"
+   steps make differentiated claims — confirm each points to a row in
+   `02-evidence-log.md`. No source = cut the claim or label it `Needs-customer-proof`.
+   Comparative claims ("faster than X," "the only tool that...") and anything in a
+   regulated market get flagged for human legal/PM review explicitly — don't self-clear
+   them.
+3. Prefer the simplest credible story the evidence actually supports over a cleverer one
    it doesn't.
 
 ## Rules
 
-- Never let messaging quality outrun evidence quality — a well-written unsubstantiated
-  claim is more dangerous than an unwritten one.
+- Never let the positioning statement outrun evidence quality — a well-written
+  unsubstantiated claim is more dangerous than an unwritten one.
 - Keep technical claims accurate to what `01-product-truth.md` and `02-evidence-log.md`
   actually establish — don't round a capability up to sound more impressive.
 - The market category in step 5 of the Dunford spine is a decision, not a default —
   don't inherit whatever category the product happened to launch under without asking
   whether it's still the right one.
+- Don't draft `08-messaging-house.md` here, even partially — that's `messaging-house`'s
+  job, and it needs a finished, gate-passed `07-positioning.md` to build from.
 
 ## Output
 
-Updates: `07-positioning.md`, `08-messaging-house.md` (both only if the gate passes),
-`00-index.md` (Freshness rows, Next Best Action, and — if the gate didn't pass — the gap
-list and validation agenda go here too, since that's the hub's shared "what's missing"
-surface).
+Updates: `07-positioning.md` (only if the gate passes), `00-index.md` (Freshness rows,
+Next Best Action, and — if the gate didn't pass — the gap list and validation agenda go
+here too, since that's the hub's shared "what's missing" surface).
 
 End with the single next best action — either the specific gap most worth closing next
-(if gated), or `distribution-planner`/`stakeholder-alignment` once positioning is drafted.
+(if gated), or `messaging-house` once positioning is drafted.

@@ -90,6 +90,7 @@ A claim with no source is a liability, not a message. If you can't cite it, mark
   10-distribution.md     # all available channels, incl. owned assets (see below)
   11-stakeholders.md     # who approves / blocks / must own; what each must believe
   12-campaign-brief.md   # generated LAST, only from an approved hub
+  13-copy-library.md     # reusable headlines/taglines/CTAs; fed by copywriting, ad hoc
   inputs/                # raw uploaded docs (read by context-intake + evidence-synthesizer)
   assets/{competitor-screenshots, product-screenshots, whiteboards}
 ```
@@ -151,11 +152,12 @@ name the specific evidence gap.
 5. Frame likely users, buyers, jobs, pains, outcomes, proof needs.
 6. Competitor **discovery → journey capture → positioning/pricing** (three distinct passes).
 7. Build the value-prop matrix.
-8. Draft positioning (Dunford), then the messaging house — only once product + customer +
-   market evidence is real.
-9. Map distribution + stakeholders.
-10. Generate campaign/enablement artifacts **last**, from the approved hub, with approval
-    before any write to a shared surface.
+8. Draft positioning (Dunford) — only once product + customer + market evidence is real.
+9. Build the messaging house (narrative, pillars, audience angles) from that positioning.
+10. Map distribution + stakeholders.
+11. Generate campaign/enablement artifacts **last**, from the approved hub, with approval
+    before any write to a shared surface. `copywriting` can run any time from step 9
+    onward for ad hoc headline/tagline/CTA work — it isn't gated like campaign generation.
 
 ## Skills you orchestrate (keep the core small)
 
@@ -167,9 +169,14 @@ Add more only when a real gap recurs. Do **not** proliferate.
 - `evidence-synthesizer` — turns tickets/chat/docs/support/analytics into labelled entries
 - `competitor-discovery` → `competitor-journey-capture` → `competitor-positioning-pricing`
 - `value-framing` — JTBD → value props → matrix
-- `positioning-messaging` — Dunford spine + messaging house + claims substantiation
+- `positioning-messaging` — Dunford spine positioning statement + claims substantiation
+- `messaging-house` — narrative, message hierarchy, and audience angles built from an
+  approved positioning statement; also re-run when positioning changes or an angle needs
+  deepening
 - `distribution-planner` — full channel map incl. owned assets
 - `stakeholder-alignment` — approve/block/own map
+- `copywriting` — sentence-level craft (headlines, taglines, CTAs, punch-up edits) drawn
+  from the messaging house; usable any time, not gated like campaign-starter
 - `campaign-starter` — deliberately the *least* powerful; guarded, hub-gated, runs last
 
 **Test your skills.** Validate new/edited skills with the `skill-creator` eval workflow

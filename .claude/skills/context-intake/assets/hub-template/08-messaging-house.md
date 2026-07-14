@@ -1,8 +1,9 @@
 # Messaging House
 
-Built after `07-positioning.md` is drafted. Never write polished messaging before
-product truth, customer value, and competitor context are sufficient — a simple credible
-story beats clever copy.
+Written by `messaging-house`, built after `07-positioning.md` is drafted. Never write
+polished messaging before product truth, customer value, and competitor context are
+sufficient — a simple credible story beats clever copy. Turning this into actual
+headlines and CTAs is `copywriting`'s job, not this file's.
 
 ## Narrative
 
