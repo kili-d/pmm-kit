@@ -28,6 +28,7 @@ synced. If so, surface the diff and ask before re-syncing — stale hub, wrong h
 | 11-stakeholders.md | | | |
 | 12-campaign-brief.md | | | |
 | 13-copy-library.md | | | |
+| 14-strategic-narrative.md | | | |
 
 ## Open Questions
 
