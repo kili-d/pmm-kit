@@ -2,9 +2,8 @@
 
 A technical product marketing skill set for tools like Claude Code and Codex.
 It takes you from product vision, internal conversations, and external observations to a
-defensible positioning point of view and launch-ready assets — with every material claim
-carrying a confidence label and a checkable provenance, and every unproven bet labeled an
-assumption rather than dressed up as fact.
+clear positioning point of view and launch-ready assets — keeping an honest line between
+what you actually know and what you're still assuming.
 
 PMM Kit ships with **zero domain knowledge**. It doesn't know your company, your product,
 or your market until you tell it. That's deliberate: the framework is generic and safe to
@@ -13,9 +12,9 @@ unless you decide otherwise.
 
 ## What's actually in here
 
-- **`CLAUDE.md`** — the orchestrator. Loaded every session. Defines the two-axis claim
-  discipline (`[Confidence | prov: pointer]`), the evidence-hub structure, the positioning
-  framework (April Dunford's spine + Jobs-to-be-Done), and which skill runs when.
+- **`CLAUDE.md`** — the orchestrator. Loaded every session. Defines how the kit keeps track
+  of what's known versus still assumed, the hub structure, the positioning framework
+  (April Dunford's spine + Jobs-to-be-Done), and which skill runs when.
 - **`.claude/skills/`** — a dozen focused skills that do the actual work, run roughly in
   this order:
 
@@ -29,6 +28,7 @@ unless you decide otherwise.
   | `competitor-positioning-pricing` | Analyzes competitor messaging, pricing, packaging, ICP signals. |
   | `value-framing` | Turns features into JTBD chains and a graded value-proposition matrix. |
   | `positioning-messaging` | Drafts positioning (Dunford spine) from vision + internal + external inputs; labels assumptions where proof is thin. |
+  | `strategic-narrative` | Turns a chosen positioning into a movement story — old game → new game, the stakes, and what the buyer wins. Powers sales decks and campaign themes. |
   | `messaging-house` | Turns a chosen positioning into narrative, message hierarchy, and audience angles. |
   | Brand building | *Handoff, not a skill* — hand the messaging house to Brandkit for brand identity/system work. |
   | `distribution-planner` | Maps every channel, including owned assets, before messaging is final. |
@@ -76,18 +76,17 @@ shared or published.
    `CLAUDE.local.md` in the repo root automatically. It's covered by the same
    `.gitignore` allow-list, so it never gets committed.
 
-## What the kit refuses to do
+## What the kit won't do
 
-The kit forms a point of view from the best available inputs — it won't refuse to position
-just because customer proof is thin; it labels the assumptions instead and ships the draft.
-But it still refuses two things, every time, even under time pressure:
+It forms a point of view from the best available inputs — it won't stall just because
+customer proof is thin; it flags what's still an assumption and ships the draft anyway.
+Two things it still won't do, though:
 
-- **Presenting an assumption as a validated fact.** A deliberate bet is fine when it's
-  labeled `Assumption` and traced to the input it rests on; passing one off as proven is not.
-- **Producing brand or launch copy with no positioning point of view chosen at all.**
-  `campaign-starter` assembles launch assets only once `07-positioning.md` holds a real
-  (even assumption-labeled) point of view — otherwise it tells you exactly what's missing.
+- **Pass off an assumption as a settled fact.** A deliberate bet is fine when it's flagged
+  as one; dressing it up as proven isn't.
+- **Produce launch copy with no positioning chosen at all.** `campaign-starter` builds
+  launch assets only once `07-positioning.md` holds a real point of view — otherwise it
+  tells you what's missing first.
 
-A credible "here's the bet we're making and what would validate it" beats both a polished
-claim nobody can defend in a room with Sales, Legal, or a customer, and a blank refusal to
-hold a view at all.
+A plain "here's the bet we're making" beats both a polished claim nobody can stand behind
+and a blank refusal to take a position at all.
