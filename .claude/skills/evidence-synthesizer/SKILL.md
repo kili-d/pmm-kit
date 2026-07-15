@@ -36,7 +36,9 @@ an unchecked lane is a gap worth naming, not an assumption to make quietly.
    with no corresponding source row isn't traceable — don't extract past this step.
 2. **Extract claims, not summaries.** For each source, pull out discrete, checkable
    claims — not a paraphrase of the whole document. Use the format
-   `Claim text. [Confidence | src: pointer]`.
+   `Claim text. [Confidence | prov: <type>: pointer]` — provenance is `internal` for
+   product/team/vision material, `external` for customer/market signals, or
+   `product-observation` (see `CLAUDE.md`'s four types).
 3. **Preserve contradictions.** If two sources disagree, log both claims with both
    sources and mark the conflict explicitly — don't average them into one smoothed
    claim, and don't silently prefer the more recent or more senior source without saying
@@ -63,11 +65,13 @@ an unchecked lane is a gap worth naming, not an assumption to make quietly.
 - Preserve technical accuracy. Don't simplify a claim in a way an engineer would dispute.
 - Never collapse a contradiction into a single confident claim — contradictions are
   signal, not noise to clean up.
-- Every claim you write gets both axes: confidence and a checkable source pointer. If you
-  can't point to where it came from, it's `Hypothesis`, full stop.
+- Every claim you write gets both axes: confidence and a checkable provenance pointer. If
+  you can't point to where it came from, it doesn't ship — mark it `Hypothesis`, or, if
+  it's a deliberate bet worth carrying forward, a labeled `Assumption` traced to what
+  motivated it. An untraceable assertion is the one thing forbidden.
 - Distinguish "someone asserted X" from "X is true." A sales call transcript quoting an
   AE's price confirms the AE *said* that price — it doesn't confirm the price is correct.
-  Label these as e.g. `Confirmed (as a statement made) | src: ...` so a contradiction
+  Label these as e.g. `Confirmed (as a statement made) | prov: ...` so a contradiction
   between a verified fact and a reported utterance doesn't read as two equally solid
   facts.
 - If a source has no date, say so explicitly ("date not stated in source") rather than
