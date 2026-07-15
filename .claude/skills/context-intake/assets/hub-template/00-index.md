@@ -6,7 +6,7 @@ Status: Discovery
 ## Product Summary
 
 One paragraph: what this product is, who it appears to be for, what job it may support.
-[confidence | src: pointer]
+[confidence | prov: <type>: pointer]
 
 ## Freshness
 
@@ -32,6 +32,16 @@ synced. If so, surface the diff and ask before re-syncing — stale hub, wrong h
 ## Open Questions
 
 -
+
+## Validation Backlog
+
+Assumptions the hub is currently building on, and what would validate or falsify each.
+Positioning and messaging may ship on labeled assumptions — this is where they get
+pressure-tested later, not a gate that blocks them now.
+
+| Assumption | Provenance (assumption -> pointer) | What would validate / falsify it | Priority |
+| --- | --- | --- | --- |
+| | | | |
 
 ## Next Best Action
 

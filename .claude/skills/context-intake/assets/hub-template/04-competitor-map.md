@@ -11,10 +11,10 @@
 
 ## Competitor List
 
-| Competitor | Category | Product or offer | Website | Notes | Priority | Confidence | Source |
+| Competitor | Category | Product or offer | Website | Notes | Priority | Confidence | Provenance |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | | | | | | | | |
 
-Priority: `High | Medium | Low`. Confidence: per CLAUDE.md's two-axis vocabulary. Source:
-a checkable pointer (customer/prospect mention, web search + date, category listing) —
-every row needs one, per `02-evidence-log.md`.
+Priority: `High | Medium | Low`. Confidence: per CLAUDE.md's two-axis vocabulary.
+Provenance: an `external` pointer (customer/prospect mention, web search + date, category
+listing) — every row needs one, per `02-evidence-log.md`.

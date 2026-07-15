@@ -15,21 +15,25 @@ paper over the gap with fluent-sounding launch copy.
 
 Refuse to draft `12-campaign-brief.md` or any launch asset unless all of these hold:
 
-- `07-positioning.md` has real content, not the empty template — a positioning
-  statement with a confidence label, not blanks.
+- `07-positioning.md` has a chosen point of view, not the empty template — a positioning
+  statement with a confidence label (an `Assumption`-labeled POV counts; a blank one does
+  not). **This is the load-bearing gate: no positioning point of view = no launch assets.**
 - `08-messaging-house.md` has a narrative and message hierarchy with claims that passed
-  the claims-substantiation check (each traces to `02-evidence-log.md`, none left
-  unlabeled as `Needs-customer-proof` without you seeing it).
+  the claims-substantiation check — each traces to `02-evidence-log.md` with its
+  provenance, and any assumption-backed claim is labeled as such rather than passed off as
+  validated fact.
 - No unresolved `Contradicted` claim in `02-evidence-log.md` touches the campaign's core
   message (e.g., don't build a price-forward campaign on a disputed price).
 - `10-distribution.md` names at least one channel with a real owner — a campaign with no
   channel to run in isn't ready, it's a hypothesis.
 
 If any of these fail, **do not draft launch assets.** Say exactly which gate failed and
-what closing it requires, same as `positioning-messaging`'s gate — this is expected,
-sober output, not a refusal to help. Point back to whichever skill would close the gap
-(`positioning-messaging`, `evidence-synthesizer`, `stakeholder-alignment`,
-`distribution-planner`).
+what closing it requires — this is expected, sober output, not a refusal to help. The most
+common failure is no chosen positioning point of view: point back to
+`positioning-messaging` to make that call first. For the other gaps, point to whichever
+skill closes them (`evidence-synthesizer`, `stakeholder-alignment`, `distribution-planner`).
+Note the difference from the old posture: thin *customer proof* is not a gate — an
+assumption-backed but chosen and labeled positioning passes.
 
 ## Process (once the gate passes)
 
@@ -44,9 +48,9 @@ sober output, not a refusal to help. Point back to whichever skill would close t
    outline, email copy, sales one-pager, FAQ, social copy) as separate files or sections —
    practical drafts a real team can adapt, not generic launch-copy filler.
 4. **Preserve uncertainty labels in the output itself.** If a supporting message is
-   marked `Needs-customer-proof` upstream, don't launder it into confident copy here —
-   either leave it out of customer-facing drafts or mark it inline as needing sign-off
-   before use.
+   marked `Assumption` (or otherwise unvalidated) upstream, don't launder it into confident
+   copy here — either leave it out of customer-facing drafts or mark it inline as needing
+   sign-off before use.
 5. List open risks/approvals needed at the end of `12-campaign-brief.md` — anything a
    stakeholder still needs to clear per `11-stakeholders.md`.
 

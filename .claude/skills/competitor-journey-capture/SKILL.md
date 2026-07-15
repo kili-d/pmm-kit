@@ -29,11 +29,11 @@ request is jumping ahead of the prioritization.
    and date. If no real images are available (text descriptions only), don't fabricate
    placeholder images — write "no screenshots (text-described only)" in the Journey
    Capture Index's screenshot-folder cell instead of leaving it ambiguously blank.
-   Source each step as `competitor-observation (live browsing)` when you actually browsed
-   it yourself, or `competitor-observation (text description)` when working from a
-   description someone else gave you — the latter is inherently a step further from the
-   thing itself and should read that way in confidence, not be written as if verified
-   firsthand.
+   Source each step with provenance `external` — `external: competitor journey (live
+   browsing)` when you actually browsed it yourself, or `external: competitor journey
+   (text description)` when working from a description someone else gave you — the latter
+   is inherently a step further from the thing itself and should read that way in
+   confidence, not be written as if verified firsthand.
 4. If the user wants a whiteboard-ready sequence, build it from the same step data and
    save the export/link in `assets/whiteboards/`.
 5. Update the Journey Capture Index in `05-journey-teardowns.md` and log the journey as a

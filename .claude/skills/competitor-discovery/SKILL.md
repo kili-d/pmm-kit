@@ -41,8 +41,8 @@ knowledge as freshly verified.
    prioritize — rank by audience overlap and reach instead, and say plainly that the
    ranking is category-reasoned rather than customer-confirmed.
 4. Log where each competitor came from (a customer mentioned it, a search, a category
-   listing) as a source in `02-evidence-log.md` — competitor existence is a claim like any
-   other.
+   listing) as a source with provenance `external` in `02-evidence-log.md` — competitor
+   existence is a claim like any other.
 
 ## Rules
 

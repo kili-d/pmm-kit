@@ -31,9 +31,9 @@ exist anywhere in the hub.
    headline directions, not one "best" headline) rather than a single take presented as
    final.
 3. **Trace every option to a real claim.** If the punchiest version of a line depends on
-   a claim that isn't substantiated in `02-evidence-log.md`, either mark it inline as
-   `Needs-proof` or offer an alternative that doesn't depend on it — don't quietly launder
-   an unproven claim into confident prose.
+   a claim that isn't validated in `02-evidence-log.md`, either mark it inline as an
+   unvalidated `Assumption` or offer an alternative that doesn't depend on it — don't
+   quietly launder an assumption into confident prose.
 4. **Cut generic marketing language.** If a line could sit on any competitor's homepage
    unchanged, sharpen it until it's specific to what this hub actually established, or
    cut it.
