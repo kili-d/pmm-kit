@@ -15,14 +15,16 @@ will later draw on.
 Read `01-product-truth.md` (What It Does) and `03-customer-and-jobs.md` (Candidate
 Audiences, JTBD Chain so far). If both are still mostly empty templates, say so and
 suggest `product-immersion` and/or `evidence-synthesizer` first — value framing on top of
-naive-only or evidence-thin input just produces confident-sounding guesses.
+naive-only or evidence-thin input produces guesses — fine only if you label them
+`Assumption` and say what would prove each, never dressed up as validated value.
 
 ## Process
 
 1. **Complete the JTBD chain** in `03-customer-and-jobs.md` for each audience with real
-   support behind it — evidenced at `Inferred` or better, not a naive-read `Hypothesis`
-   alone. For audiences that are still pure hypothesis, note them and say why you didn't
-   build a full chain rather than inventing pains nobody's actually stated. For each
+   support behind it — evidenced at `Inferred` or better, or carried as an explicit
+   labeled `Assumption` traced to a vision/internal input. For audiences that are pure
+   `Hypothesis` with nothing behind them, note them and say why you didn't build a full
+   chain rather than inventing pains nobody's actually stated. For each
    audience you do chain: job → pain/constraint → desired outcome → objection → proof
    point needed → value proposition. A chain missing a proof point is a value claim with
    nothing behind it — flag it rather than leaving the cell blank and moving on.
@@ -37,18 +39,19 @@ naive-only or evidence-thin input just produces confident-sounding guesses.
 4. **Grade honestly.** A claim only earns Strongest with all three: an evidenced
    audience, a confirmed (not just plausible) pain, and proof that already exists —
    "a proof point would be easy to get" doesn't count, that's a Proof Gap, not proof.
-   Everything else is Weak or Unproven; say which link is missing. It's normal, maybe
-   even expected, for a hub to have zero Strongest claims early on — that's real
-   information, not a failed pass. A weak claim isn't a failure to hide — it's exactly
-   the kind of gap this hub exists to surface before it becomes a promise
-   `campaign-starter` writes down and someone has to defend.
+   Everything else is graded by which link is missing — but a claim resting on a labeled
+   `Assumption` is still a legitimate basis for positioning to build on, not a
+   disqualified one; label it, don't bury it. It's normal, maybe even expected, for a hub
+   to have zero Strongest claims early on — that's real information, not a failed pass.
+   What you must not do is launder an assumption into a Strongest claim it hasn't earned.
    If a "capability" is actually broken or non-functional (visible but doesn't work,
    promises something it doesn't deliver), don't force it into a value row at all — flag
    it directly as a risk in the matrix's notes; a non-functional feature has no value
    translation, only a liability one.
 5. List **Proof Gaps** explicitly — value claims that would be strong if only there were
-   evidence for them. This is a direct feed for what `evidence-synthesizer` or a human
-   should go find next.
+   evidence for them. These are validation-backlog items (surface them in `00-index.md`):
+   a direct feed for what `evidence-synthesizer` or a human should validate next. A proof
+   gap doesn't block the claim from being used now as a labeled assumption.
 
 ## Rules
 
@@ -65,5 +68,5 @@ Updates: `03-customer-and-jobs.md` (JTBD Chain), `09-value-prop-matrix.md` (full
 Strongest/Weak claims, Proof Gaps), `00-index.md` (Freshness rows, Next Best Action).
 
 End with the single next best action — usually `positioning-messaging` once the matrix
-has enough strong, proof-backed claims to build a narrative on, or naming the specific
-proof gap most worth closing first if not.
+gives a defensible point of view to build on (even if some of it rests on labeled
+assumptions), or naming the specific proof gap most worth validating first.
