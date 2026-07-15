@@ -1,7 +1,10 @@
 # Positioning
 
 Dunford spine. Work top to bottom — each step depends on the one before it. Written by
-`positioning-messaging`, only once product, customer, and competitor evidence is real.
+`positioning-messaging` from vision + internal + external inputs. Where hard
+customer/analytics evidence is absent, draft the point of view anyway on labeled
+`Assumption`s traced to those inputs, and log what would validate each in `00-index.md`'s
+validation backlog. This spine is a decision, not a report waiting on proof.
 
 ## 1. Competitive Alternatives
 
@@ -29,4 +32,4 @@ instead if they differ.
 For [audience], [product] is a [category] that helps [job/outcome] by [attribute or
 advantage], unlike [alternative], which [limitation].
 
-Confidence:
+Confidence: (a first draft may legitimately be `Assumption` — name what would validate it)
