@@ -6,7 +6,7 @@ Status: Discovery
 ## Product Summary
 
 One paragraph: what this product is, who it appears to be for, what job it may support.
-[confidence | src: pointer]
+[confidence | prov: <type>: pointer]
 
 ## Freshness
 
