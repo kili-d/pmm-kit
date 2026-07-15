@@ -13,13 +13,14 @@ job, not this one.
 
 ## Gate check (do this first, every time)
 
-- `07-positioning.md` has a real positioning statement with a confidence label, not the
-  blank template. If it's still empty or thin, say so and point back to
-  `positioning-messaging` — don't build a narrative on a positioning statement that
+- `07-positioning.md` has a chosen point of view with a confidence label, not the blank
+  template. An `Assumption`-labeled POV counts — a positioning built on labeled assumptions
+  is a valid basis to build from. If it's still empty (no POV chosen at all), say so and
+  point back to `positioning-messaging` — don't invent a narrative on a positioning that
   doesn't exist yet.
 - `09-value-prop-matrix.md` has at least one claim beyond pure `Unproven` to build a
-  pillar from. If every claim is Unproven, say so — a messaging house needs something
-  real to hang a pillar on, not a hopeful one.
+  pillar from (an `Assumption`-labeled claim counts). If there's genuinely nothing to hang
+  a pillar on, say so.
 
 If either check fails, don't draft `08-messaging-house.md`. Say exactly what's missing
 and point to `positioning-messaging` or `value-framing` to close it — this is expected
@@ -43,10 +44,11 @@ output, not a failure to complete the task.
    behind it, pulled from `02-evidence-log.md` / `09-value-prop-matrix.md` — don't invent
    a proof point that doesn't exist yet; flag it as a proof gap instead.
 5. **Run the claims-substantiation check**: every differentiated claim in the messaging
-   house must point to a row in `02-evidence-log.md`. No source = cut the claim or label
-   it `Needs-customer-proof`. Comparative claims ("faster than X," "the only tool
-   that...") and anything in a regulated market get flagged for human legal/PM review
-   explicitly — don't self-clear them.
+   house must point to a row in `02-evidence-log.md` with its provenance. No provenance =
+   cut the claim. A claim resting on an `assumption` ships labeled as such with a
+   validation item logged — not cut for lacking customer proof. Comparative claims
+   ("faster than X," "the only tool that...") and anything in a regulated market get
+   flagged for human legal/PM review explicitly — don't self-clear them.
 6. **If refining an existing messaging house** rather than drafting the first one: diff
    against what's already there, call out what changed and why (usually because
    positioning or the value-prop matrix changed upstream), and keep angles that still
@@ -56,8 +58,8 @@ output, not a failure to complete the task.
 
 - Each audience angle must be distinct — reusing one message across audiences with only
   the label changed defeats the point of segmenting at all.
-- Never let messaging quality outrun evidence quality — a fluent pillar with no proof
-  behind it is a liability, not an asset.
+- Never let messaging quality outrun label honesty — a fluent pillar resting on a labeled
+  `Assumption` is fine; the same pillar passed off as validated fact is a liability.
 - Market category and the core positioning decision belong to `positioning-messaging` —
   if drafting the narrative surfaces doubt about the category choice, flag it back rather
   than quietly redeciding it here.
