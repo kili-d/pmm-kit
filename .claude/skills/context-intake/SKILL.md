@@ -52,8 +52,9 @@ answered by ingested documents.
 - Is there an existing product line or portfolio this sits in?
 
 **Audience (if known — it's fine if it isn't yet)**
-- Any early read on who the user vs. buyer is? Mark explicitly as open if genuinely
-  unknown — do not let the model guess a persona here. This goes in the hub's
+- Any early read on who the user vs. buyer is? Capture it as a labeled `Assumption` if
+  it's a deliberate early bet, or mark it open if genuinely unknown — don't guess a persona
+  and present it as fact. This goes in the hub's
   `01-product-truth.md` ("who it appears to be for") or `00-index.md` open questions if
   the hub is only just being seeded — audience is product-specific, not organization-wide,
   so it never goes in `context/`.
@@ -83,10 +84,11 @@ answered by ingested documents.
 Write only the files supported by real answers or ingested documents, to `context/`:
 `domain.md`, `organization.md`, `product-line.md`, `channels.md`, `constraints.md`,
 `terminology.md`. Every material fact uses the two-axis format from `CLAUDE.md`:
-`Claim. [Confidence | src: pointer]` — `src:` is the document name, or
-`user-interview` for something stated directly in this conversation. Don't infer beyond
-what was said or written; if something is genuinely unknown, write "Open — not yet
-known" rather than a guess.
+`Claim. [Confidence | prov: <type>: pointer]` — provenance is usually `internal` (the
+document name), or `user-interview` for something stated directly in this conversation.
+Don't pass off an inference as fact; if something is genuinely unknown, write "Open — not
+yet known", or capture a deliberate early read as a labeled `Assumption` traced to its
+input — never a bare guess.
 
 ### 5. Seed the product hub
 
@@ -117,8 +119,9 @@ already a pile of docs/tickets to process), not a menu of options.
 
 - Never write a company, market, or product fact into `CLAUDE.md` or any skill file —
   everything specific goes in `context/` or the product hub.
-- Never guess the domain, primary user, buyer, category, or distribution motion. If the
-  human doesn't know yet, record that as open rather than filling the blank.
+- Never present a guess as fact. Where the domain, primary user, buyer, category, or
+  distribution motion isn't known yet, record it as open — or, if it's a deliberate early
+  bet worth carrying forward, capture it as a labeled `Assumption` traced to its input.
 - `context/`, `inputs/`, and product hubs are local and gitignored by default — don't
   suggest committing them, and never write their contents to a shared system.
 - Keep the questionnaire tight. If you can answer a question from an uploaded doc,
