@@ -34,8 +34,8 @@ alone — packaging without the surrounding journey context is easy to misread.
    it — a missing feature or an unaddressed audience segment you can point to, not a
    vibe. An unsupported whitespace claim is exactly the kind of thing `CLAUDE.md`'s
    claims-substantiation check is meant to catch downstream — don't let it originate here.
-5. Log every source (pricing page URL + date, marketing page, etc.) in
-   `02-evidence-log.md`.
+5. Log every source (pricing page URL + date, marketing page, etc.) with provenance
+   `external` in `02-evidence-log.md`.
 
 ## Rules
 
