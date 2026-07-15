@@ -102,6 +102,7 @@ fine; an *untraceable* assertion is not. Never launder an assumption into a vali
   11-stakeholders.md     # who approves / blocks / must own; what each must believe
   12-campaign-brief.md   # generated LAST, only from an approved hub
   13-copy-library.md     # reusable headlines/taglines/CTAs; fed by copywriting, ad hoc
+  14-strategic-narrative.md # movement story (old game -> new game); feeds 08, decks, campaigns
   inputs/                # raw uploaded docs (read by context-intake + evidence-synthesizer)
   assets/{competitor-screenshots, product-screenshots, whiteboards}
 ```
@@ -168,18 +169,24 @@ name the specific evidence gap.
 8. Draft positioning (Dunford) — from vision + internal + external inputs; where customer
    proof is absent, attach a labeled assumption set and a validation backlog rather than
    waiting. A chosen point of view is required; blank refusal is not the default.
-9. Build the messaging house (narrative, pillars, audience angles) from that positioning.
-10. **Brand building** — hand off the messaging house to **Brandkit** for brand identity
+9. **Strategic narrative (when a movement story is warranted)** — dramatize the chosen
+   positioning as an old-game→new-game story: the shift, the stakes (winners/losers),
+   the object of the new game, obstacles, capabilities-as-gifts, and evidence. Best fit
+   for enterprise/group-buyer products; field-test in live calls before full rollout.
+10. Build the messaging house (narrative, pillars, audience angles) from that positioning
+    — deriving the narrative from `14-strategic-narrative.md` where it exists.
+11. **Brand building** — hand off the messaging house to **Brandkit** for brand identity
     and system work. PMM Kit does not own brand; it stops at the messaging house and
     provides it as input. (See the pipeline note below.)
-11. Map distribution + stakeholders.
-12. Generate campaign/enablement artifacts **last**, from the approved hub, with approval
+12. Map distribution + stakeholders.
+13. Generate campaign/enablement artifacts **last**, from the approved hub, with approval
     before any write to a shared surface. `copywriting` can run any time from the messaging
     house onward for ad hoc headline/tagline/CTA work — it isn't gated like campaign
     generation.
 
-**Pipeline:** Positioning → Messaging → Brand building (hand off to Brandkit) →
-Copywriting. Brand is a defined **handoff seam**, not a PMM Kit skill.
+**Pipeline:** Positioning → Strategic narrative (optional, movement-level) → Messaging →
+Brand building (hand off to Brandkit) → Copywriting. Brand is a defined **handoff seam**,
+not a PMM Kit skill.
 
 ## Skills you orchestrate (keep the core small)
 
@@ -192,6 +199,11 @@ Add more only when a real gap recurs. Do **not** proliferate.
 - `competitor-discovery` → `competitor-journey-capture` → `competitor-positioning-pricing`
 - `value-framing` — JTBD → value props → matrix
 - `positioning-messaging` — Dunford spine positioning statement + claims substantiation
+- `strategic-narrative` — the movement story (Raskin): names the old-game→new-game shift,
+  stakes, object of the new game, obstacles, gifts, and evidence; powers sales decks and
+  campaign themes and doubles as a roadmap filter. Optional but recommended for
+  enterprise/group-buyer products; runs after `positioning-messaging`, feeds
+  `messaging-house`.
 - `messaging-house` — narrative, message hierarchy, and audience angles built from an
   approved positioning statement; also re-run when positioning changes or an angle needs
   deepening

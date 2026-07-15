@@ -31,7 +31,10 @@ output, not a failure to complete the task.
 1. **Draft or refresh the Narrative and Core Value Proposition** in
    `08-messaging-house.md`, derived directly from the positioning statement in
    `07-positioning.md` — don't introduce a new angle on the product here that positioning
-   didn't already establish.
+   didn't already establish. If `14-strategic-narrative.md` exists with a chosen shift,
+   derive the Narrative directly from it — compress the movement story rather than
+   inventing a parallel one; if the two would diverge, flag it back to
+   `strategic-narrative` instead of silently forking the story.
 2. **Build the Message Hierarchy**: a small, prioritized set of pillars (not an
    exhaustive list of every feature) — each traced to a specific claim in
    `09-value-prop-matrix.md`. If a tempting pillar has no real claim behind it, leave it
