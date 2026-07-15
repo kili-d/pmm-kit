@@ -21,7 +21,7 @@ observation, not fact.
 ## Validated Truth
 
 Claims checked against product docs, tickets, analytics, or direct product use — written
-or confirmed by `evidence-synthesizer`. Use the two-axis format: `Claim. [Confidence | src: pointer]`
+or confirmed by `evidence-synthesizer`. Use the two-axis format: `Claim. [Confidence | prov: <type>: pointer]`
 
 ## Contradictions & Gaps
 

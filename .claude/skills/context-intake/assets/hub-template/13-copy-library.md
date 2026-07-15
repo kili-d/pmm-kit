@@ -6,6 +6,6 @@ draws on this instead of regenerating copy from scratch.
 
 ## Entries
 
-| Asset / Use | Pillar or Angle | Audience | Copy | Confidence | Source |
+| Asset / Use | Pillar or Angle | Audience | Copy | Confidence | Provenance |
 | --- | --- | --- | --- | --- | --- |
 | | | | | | |
